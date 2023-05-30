@@ -24,10 +24,12 @@ body {
     background: url(images/bg-desktop.png), var(--main-bg);
     background-repeat: no-repeat;
     background-position: bottom;
+    background-position:0vh 50vh;
     background-size: contain;
 }
 
 main {
+    margin-top: 4rem;
     display: flex;
     gap: 2rem;
     align-items: flex-end;
@@ -36,7 +38,7 @@ main {
 .left {
     display: flex;
     flex-direction: column;
-    width: 24rem;
+    width: 23rem;
     height: 13rem;
     background-color: var(--Dark-Blue);
     padding: 2.5rem;
@@ -158,4 +160,47 @@ span {
 
 .attribution a {
      color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 768px) {
+    
+    body {
+        background-position: -81vh 0vh;
+        background-size: cover;
+        gap: 10rem;
+    }
+
+    main {
+        flex-direction: column;
+        align-items: center;   
+    }
+
+    .left {
+        
+
+    }
+
+    .right {
+        width:23rem;
+    }
+
+    .progress-bar {
+        width: 18rem;
+    }
+
+    .progress {
+        width: 14rem;
+    }
+
+    .box {
+        margin-left: 2.5rem;
+        margin-top: 0;
+        width: 13rem;
+        border-radius: 0.7rem ;
+    }
+
+    .box::after {
+        display: none;
+    }
+  
 }
