@@ -9,7 +9,7 @@ Thanks for checking out my front-end coding solution. This is a solution to the 
 
 ### Links
 
-- Solution URL: [Here](https://your-solution-url.com)
+- Solution URL: [Here](https://www.frontendmentor.io/solutions/fylodatastoragecomponentfrontendmentor-eqKu9hQpm3)
 - Live Site URL: [Here](https://ozlemxates.github.io/Fylo-Data-Storage-Component-Frontend-Mentor/)
 
 ### Built with
